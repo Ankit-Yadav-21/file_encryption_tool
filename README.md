@@ -12,7 +12,7 @@ This command-line tool provides basic file encryption and decryption functionali
 
 1. Clone the repository:
 
-   git clone https://github.com/Ankit-Yadav-21/file-encryption-tool.git
+   git clone https://github.com/Ankit-Yadav-21/file_encryption_tool.git
 
 2. Navigate to the project directory:
 
