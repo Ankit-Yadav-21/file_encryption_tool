@@ -12,24 +12,15 @@ This command-line tool provides basic file encryption and decryption functionali
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/Ankit-Yadav-21/file-encryption-tool.git
-
-   ```
 
 2. Navigate to the project directory:
 
-   ```bash
    cd file-encryption-tool
-
-   ```
 
 3. Build the project using Cargo:
 
-   ```bash
    cargo build --release
-
-   ```
 
 ## Usage
 
@@ -49,30 +40,23 @@ To use the File Encryption Tool, run the compiled binary with the appropriate co
 
 Encrypt a File Using a Custom Key:
 
-    ```bash
     file-encryption-tool --mode encrypt --input sample.txt --output encrypted.bin --key "10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160"
-    ```
 
 Decrypt a File Using the Same Custom Key:
 
-    ```bash
     file-encryption-tool --mode decrypt --input encrypted.bin --output decrypted.txt --key "10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160"
-    ```
 
 Encrypt a File with Auto-Generated Key:
 
-    ```bash
     file-encryption-tool --mode encrypt --input sample.txt --output encrypted.bin --generate_key
-    ```
+
     The generated key will be displayed in the terminal output.
 
 ## Error Handling
 
 If the --generate_key option is not specified and no custom key is provided, the tool will return an error:
 
-    ```bash
     Key not provided, and --generate_key not set
-    ```
 
 ## Contributing
 
