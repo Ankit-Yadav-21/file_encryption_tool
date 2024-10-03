@@ -13,7 +13,7 @@ This command-line tool provides basic file encryption and decryption functionali
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/file-encryption-tool.git
+   git clone https://github.com/Ankit-Yadav-21/file-encryption-tool.git
 
    ```
 
@@ -28,15 +28,14 @@ This command-line tool provides basic file encryption and decryption functionali
 
    ```bash
    cargo build --release
+
    ```
 
 ## Usage
 
 To use the File Encryption Tool, run the compiled binary with the appropriate command-line arguments.
 
-    ```bash
     file-encryption-tool --mode <encrypt/decrypt> --input <input_file> --output <output_file> [--key <key>] [--generate_key]
-    ```
 
 ## Options
 
